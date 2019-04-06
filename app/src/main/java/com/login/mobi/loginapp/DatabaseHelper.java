@@ -21,6 +21,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         //Create table
         db.execSQL(DatabaseOptions.CREATE_USERS_TABLE_);
+
+
+
     }
 
     @Override
@@ -60,5 +63,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.close(); // Closing database connection
 
     }
+
 
 }
