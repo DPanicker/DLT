@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="ed346d83-d839-4cb1-9104-1fe4b089e054" name="dpanicker">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
